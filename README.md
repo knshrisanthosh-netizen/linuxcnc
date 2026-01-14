@@ -1,6 +1,7 @@
 # DIY CNC VMC using linuxcnc
 ## Project description :
 In this project I built a three axis cnc vmc using linuxcnc with parellel port to understand how cnc works from ground up.
+![Image](https://github.com/user-attachments/assets/1c34c6eb-b159-4d10-a7bc-ceb0ce563385)
 
 ## Table of contents :
 - [Material used](#Materialused)
