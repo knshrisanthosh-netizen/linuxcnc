@@ -4,6 +4,10 @@ In this project I built a three axis cnc vmc using linuxcnc with parellel port t
 
 ## Table of contents :
 - [Material used](#Materialused)
+- [Software](#Software)
+- [MECHANICAL DESIGN](#MECHANICALDESIGN)
+- [Electrical system](#Electricalsystem)
+- [DEMO](#DEMO)
 
 #### Material used : 
 
