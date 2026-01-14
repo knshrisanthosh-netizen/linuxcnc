@@ -64,6 +64,6 @@ In this project I built a three axis cnc vmc using linuxcnc with parellel port t
 - MCBs used for overcurrent and short-circuit protection
 - Contactors used for main power switching and emergency isolation
 - Isolators used to safely disconnect power during maintenance
-##DEMO
+## DEMO
   - CIRCULAR INTERPOLATION:
     ![circular_interpolation](https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc)
