@@ -1,41 +1,57 @@
-# linuxcnc
-
-
-
-DIY CNC VMC using linuxcnc
-
+# DIY CNC VMC using linuxcnc
+## Project description :
 In this project I built a three axis cnc vmc using linuxcnc with parellel port to understand how cnc works from ground up.
-Material  used : 
-1.MACH3 parallel port break out boaed
-2.Nema 23 open loop stepper motors
-3.dm542t stepper drivers 
-4.old Desktop computer 
-5.parallel pci card 
-6.aluminium 6061 for gantry build 
-7.aaluminium extrusion size:6060 
-8.ballscrew 1605 and supports 
-9.contactors , mcbb and isolators 
-10.limit switches ,emergency stop and shielded wires
 
-I did some succesful test with my diy cnc . i have attached my connections photo , cnc build photos and testing videos . spindle was not designed and so i tested out with marker as tool
+## Table of contents :
+- [Material used](#Materialused)
 
-The mechanical design was inspired from already existed cad models in internet.I have attached some  cad model
+#### Material used : 
 
 
-Install LinuxCNC
-2.Download LinuxCNC ISO
-3Flash to USB
-4.Install on PC
-5.Verify real-time latency 
+- MACH3 parallel port break out boaed
 
-STEPCONF WIZARD CONFIGURATION: FOR INITIAL SETUP
+- Nema 23 open loop stepper motors
 
-1.Select paraller port 
-2.choose pins for step/dir ,limit switches , estop and spindle 
-3.Calculate your steps per mm and enter it 
-4.enter velocity and accelearation
-5.enter microstepping value 
+- dm542t stepper drivers
 
+- old Desktop computer 
+- parallel pci card 
+- aluminium 6061 for gantry build 
+- aaluminium extrusion size:6060 
+- ballscrew 1605 and supports 
+- contactors , mcbb and isolators 
+- limit switches ,emergency stop and shielded wires
 
+## Software
 
+### Install LinuxCNC
+- Download LinuxCNC ISO
+- Flash to USB
+- Install on PC
+- Verify real-time latency (Mine had high latency so during execution steps might get missed so make sure you choose right pc or use an motion controller)
+
+##### STEPCONF WIZARD CONFIGURATION: FOR INITIAL SETUP
+
+- Select paraller port 
+- choose pins for step/dir ,limit switches , estop and spindle 
+- Calculate your steps per mm and enter it 
+- enter velocity and accelearation
+- enter microstepping value 
+
+## MECHANICAL DESIGN:
+
+- The mechanical structure was inspired by existing CNC CAD models available online
+- Aluminium extrusion and 6061 plates(10MM-THICKNESS) were used for rigidity
+- Ball screws were used on all three axes for  accuracy
+- Some CAD reference models are attached for design understanding
+
+## Electrical system :
+
+- 230V AC,6A single-phase supply used as the main input power source
+- 36V,12A SMPS used to power the stepper motor drivers (DM542T)
+- Shielded motor cables used between drivers and stepper motors to reduce EMI and electrical noise
+- 5V SMPS used to power the parallel port breakout board and control electronics
+- MCBs used for overcurrent and short-circuit protection
+- Contactors used for main power switching and emergency isolation
+- Isolators used to safely disconnect power during maintenance
 
