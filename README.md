@@ -66,4 +66,4 @@ https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
 - Isolators used to safely disconnect power during maintenance
 ## DEMO
   - CIRCULAR INTERPOLATION:
-    ![circular_interpolation](https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc)
+    [![circular_interpolation](IMAGES/SCR.JPG)](https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc)
