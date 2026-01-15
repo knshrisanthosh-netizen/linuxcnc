@@ -4,18 +4,19 @@ In this project I built a three axis cnc vmc using linuxcnc with parellel port t
 ![CNC](https://github.com/user-attachments/assets/f305e895-9cb1-44fa-b339-8b58ebb9cd87)
 
 ## Table of contents :
-- [Material used](#Material_used)
-- [Software](#Software)
+- [Material used](#MATERIAL_USED)
+- [Software](#SOFTWARE)
 - [MECHANICAL DESIGN](#MECHANICAL_DESIGN)
-- [Electrical system](#Electrical_system)
+- [Electrical system](#ELECTRICAL_SYSTEM)
 - [DEMO](#DEMO)
+- [FUTURE IMPROVEMENTS](#FUTURE_IMPTOVEMENTS)
 https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
 
 
 
 
 
-#### Material_used : 
+#### MATERIAL_USED : 
 
 
 
@@ -33,7 +34,7 @@ https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
 - contactors , mcbb and isolators 
 - limit switches ,emergency stop and shielded wires
 
-## Software
+## SOFTWARE
 
 ### Install LinuxCNC
 - Download LinuxCNC ISO
@@ -56,7 +57,7 @@ https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
 - Ball screws were used on all three axes for  accuracy
 - Some CAD reference models are attached for design understanding
 
-## Electrical_system :
+## ELECTRICAL_SYSTEM :
 
 - 230V AC,6A single-phase supply used as the main input power source
 - 36V,12A SMPS used to power the stepper motor drivers (DM542T)
@@ -70,3 +71,8 @@ https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
   https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc
   - LINERA INTEROLATION :
 https://github.com/user-attachments/assets/b72ca1ed-09fd-467c-89ac-a1e2534ad41b
+## FUTURE_IMPROVEMENTS
+- Add spindle and vfd control
+- make steppers closed loop using magnetic encoder
+- Use ethernet based moiton controller
+  
