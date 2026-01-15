@@ -18,7 +18,8 @@ https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
 #### Material_used : 
 
 
-- MACH3 parallel port break out boaed
+
+- MACH3 parallel port break out board :![PAREPORT_BREAKOUT](https://github.com/user-attachments/assets/df9eb35b-e986-492e-aee4-d1277bb28b74)
 
 - Nema 23 open loop stepper motors
 
@@ -66,4 +67,6 @@ https://github.com/user-attachments/assets/18433773-768f-4c93-b49d-c50b6d1e068b
 - Isolators used to safely disconnect power during maintenance
 ## DEMO
   - CIRCULAR INTERPOLATION:
-    [![circular_interpolation](IMAGES/SCR.JPG)](https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc)
+  https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc
+  - LINERA INTEROLATION :
+https://github.com/user-attachments/assets/b72ca1ed-09fd-467c-89ac-a1e2534ad41b
