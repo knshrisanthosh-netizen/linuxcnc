@@ -9,7 +9,7 @@ In this project I built a three axis cnc vmc using linuxcnc with parellel port t
 - [MECHANICAL DESIGN](#MECHANICAL_DESIGN)
 - [Electrical system](#ELECTRICAL_SYSTEM)
 - [DEMO](#DEMO)
-- [FUTURE IMPROVEMENTS](#FUTURE_IMPTOVEMENTS)
+- [FUTURE_IMPROVEMENTS](#FUTURE_IMPROVEMENTS)
 
 
 
