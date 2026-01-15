@@ -71,6 +71,9 @@ In this project I built a three axis cnc vmc using linuxcnc with parellel port t
   https://github.com/user-attachments/assets/452e4d24-ff9f-4552-8a94-a6dc386112cc
   - LINERA INTEROLATION :
 https://github.com/user-attachments/assets/b72ca1ed-09fd-467c-89ac-a1e2534ad41b
+  - Controller
+    https://github.com/user-attachments/assets/ddccc538-df3f-4279-88ad-09b157a47f8b
+     
 ## FUTURE_IMPROVEMENTS
 - Add spindle and vfd control
 - make steppers closed loop using magnetic encoder
